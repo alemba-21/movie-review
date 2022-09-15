@@ -27,17 +27,12 @@ function App(){
     ]);
     };
 
-   
-
-
-    const updateReview = (movie) =>{
-      Axios.delete("http://localhost:3001/api/update", {
-        movieName: movie, 
-        movieReview: newReview,
-      });
-      setNewReview("")
+    const deleteReview = (movie) =>{
+      Axios.delete(`http://localhost:3001/api/delete/${movie}`);
     };
 
+
+   
     
 
   return (
