@@ -65,9 +65,10 @@ function App(){
           <p>{val.movieReview}</p>
 
           <button onClick={() => {deleteReview(val.movieName)}}>Delete</button>
-          
+          <input type="text" id='updateInput' onChange={(e)=>{
+            setNewReview(e.target.value)
           }}/>
-          <button onClick={()=> {updateReview(val.movieName)}}>Update</button>
+          
           </div>
           );
       })}
