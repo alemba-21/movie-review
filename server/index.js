@@ -23,16 +23,17 @@ app.get('/api/get', (req,res)=>{
     });
 })
 
+app.post("/api/insert", (req, res)=>{
 
+    const movieName = req.body.movieName;
+    const movieReview = req.body.movieReview;
 
-app.delete('/api/delete/:movieName', (req, res)=>{
-    const name = req.params.movieName
-    const sqlDelete = "DELETE FROM movie_reviews WHERE movieName = ?";
-
-    db.query(sqlDelete,name, (err, result)=>{
-        if(err) console.log(err);
+    const sqInsert = "INSERT INTO movie_reviews (movieName, movieReview) VALUE (?,?)"
+    db.query(sqInsert, [movieName, movieReview], (err, result)=> {
+        console.log(result)
     });
 });
+
 
 app.put('/api/update', (req, res)=>{
     const name = req.body.movieName;
