@@ -5,7 +5,14 @@ const app = express();
 const mysql = require('mysql')
 
 
-app.use(cors());
+const db = mysql.createPool({
+    host: 'localhost',
+    user: 'root',
+    password: 'password',
+    database: 'myDatabase',
+})
+
+
 app.use(express.json())
 app.use(bodyParser.urlencoded({extended: true}))
 
