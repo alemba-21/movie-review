@@ -15,17 +15,6 @@ function App(){
     });
   }, []);
 
-  const submitReview = () => {
-    Axios.post('http://localhost:3001/api/insert', {
-      movieName: movieName, 
-      movieReview: review,
-    });
-      
-  
-
-    const deleteReview = (movie) =>{
-      Axios.delete(`http://localhost:3001/api/delete/${movie}`);
-    };
 
 
     const updateReview = (movie) =>{
