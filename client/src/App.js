@@ -68,7 +68,7 @@ function App(){
           <input type="text" id='updateInput' onChange={(e)=>{
             setNewReview(e.target.value)
           }}/>
-          
+          <button onClick={()=> {updateReview(val.movieName)}}>Update</button>
           </div>
           );
       })}
