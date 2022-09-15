@@ -12,8 +12,8 @@ const db = mysql.createPool({
     database: 'myDatabase',
 })
 
+app.use(cors());
 
-app.use(express.json())
 app.use(bodyParser.urlencoded({extended: true}))
 
 app.get('/api/get', (req,res)=>{
