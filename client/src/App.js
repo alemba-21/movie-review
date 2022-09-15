@@ -52,9 +52,11 @@ function App(){
         setMovieName(e.target.value)
       }} />
       <label>Review:</label>
-      
+      <input type="text" name='review' onChange={(e)=> {
+        setReview(e.target.value)
+      }}/>
 
-      <button onClick={submitReview}>Submit</button>
+      
 
       {movieReviewList.map((val)=>{
         return (
