@@ -15,6 +15,19 @@ function App(){
     });
   }, []);
 
+  const submitReview = () => {
+    Axios.post('http://localhost:3001/api/insert', {
+      movieName: movieName, 
+      movieReview: review,
+    });
+      
+    setMovieList([
+      ...movieReviewList, 
+      {movieName: movieName, movieReview: review},
+    ]);
+    };
+
+   
 
 
     const updateReview = (movie) =>{
