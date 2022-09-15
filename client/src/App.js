@@ -64,7 +64,13 @@ function App(){
           <h1>{val.movieName}</h1>
           <p>{val.movieReview}</p>
 
-          
+          <input type="text" id='updateInput' onChange={(e)=>{
+            setNewReview(e.target.value)
+          }}/>
+          <button onClick={()=> {updateReview(val.movieName)}}>Update</button>
+          </div>
+          );
+      })}
       </div>
     </div>
   )
