@@ -17,8 +17,9 @@ video{
 }
 
 .content{
+  padding-left: 20px;
   position: absolute;
-  height: 100%;
+  height: 60%;
   top: 0;
   display: flex;
   flex-direction: column;
@@ -27,11 +28,13 @@ video{
 }
 
 .content h2{
-  font-size: 40px;
+  font-size: 60px;
+
 }
 
 .content p{
-  font-size: 20px;
+  font-size: 25px;
+
 }
 
 .navbar1{
@@ -50,11 +53,12 @@ video{
   background-color: rgba(0, 0, 0, .5);
 }
 
-.paths{
-  font-size: 20px;
-  display: flex;
-
+.paths h3{
+  font-size: 80px;
+  margin: 30px;
+  color: brown;
 }
+
 
 .content1{
   background-color: black;
@@ -142,6 +146,40 @@ h5{
 #submit:hover{
   transition: .2s;
   background-color: blue;
+  color: white;
+  font-size: 25px;
+}
+
+.reviewz{
+  text-align: center;
+}
+
+.reviewz h2{
+  color: white;
+  font-size: 40px;
+}
+
+.reviewz p{
+  color: white;
+  font-size: 30px;
+  margin-top: 40px;
+}
+
+#review{
+  background-color: blue;
+  margin-top: 40px;
+  margin-bottom: 80px;
+  font-size: 18px;
+  padding: 20px;
+  width: 500px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#review:hover{
+  transition: .2s;
+  background-color: brown;
   color: white;
   font-size: 25px;
 }

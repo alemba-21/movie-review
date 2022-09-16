@@ -1,18 +1,10 @@
 import React from 'react'
 
-
-
-
 const Navbar = () => {
 
   return (
     <div className='paths'>
-      <ul>
-        <li>Home</li>
-        <li>TV Shows</li>
-        <li>Movies</li>
-        <li>Reviews</li>
-      </ul>
+      <h3>Lembe'z</h3>
     </div>
   )
 }
