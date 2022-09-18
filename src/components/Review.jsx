@@ -14,7 +14,7 @@ const Review = () => {
           <h5>Review</h5>
           <textarea type="text" placeholder='whats your feedback?' />
         </div>
-       
+        <a href={feedback} ><button id='submit'>Submit</button></a>
       </div>
     </div>
   )
