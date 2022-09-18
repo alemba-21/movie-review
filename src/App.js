@@ -1,6 +1,6 @@
 import './App.css';
 import Home from "./Links/Home";
-// import Reviews from "./Links/Reviews"
+import Reviews from "./Links/Reviews"
 
 
 
@@ -8,7 +8,7 @@ import Home from "./Links/Home";
 function App() {
   return <div>
            <Home/>
-           {/* <Reviews /> */}
+           <Reviews />
         </div>
 }
 
