@@ -31,10 +31,7 @@ const LandingPage = () => {
               <div className="box"><img className='u4' src={img4} alt="img4" /></div>
               <div className="box"><img className='u5' src={img5} alt="img5" /></div>
           </div>
-          <div className="reviewz">
-              <h2>Reviews</h2>
-              <p>How sufficient is our services. Give us your Review on the Button below</p>
-            </div>
+          
             </div>
         </div>
   );
