@@ -1,70 +1,102 @@
-# Getting Started with Create React App
+# Movie-Review
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## By Alemba Alex
 
-## Available Scripts
+## Screenshot
 
-In the project directory, you can run:
+![image](./src/images/Screenshot%20from%202022-09-19%2002-08-19.png)
+![image](./src/images/Screenshot%20from%202022-09-19%2002-08-28.png)
+![image](./src/images/Screenshot%20from%202022-09-19%2002-08-40.png)
+![image](./src/images/Screenshot%20from%202022-09-19%2002-08-45.png)
+![image](./src/images/Screenshot%20from%202022-09-19%2002-08-48.png)
 
-### `npm start`
+## Table of Content
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+-[Description](#description)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+-[Features](#features)
 
-### `npm test`
+-[Behaviour Driven Development](#Behaviour-Driven-Development)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+-[Requirements](#requirements)
 
-### `npm run build`
+-[Installation process](#installation-process)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+-[Live Link](#Live-Link)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+-[Technology Used](#technology-Used)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+-[License](#license)
 
-### `npm run eject`
+-[Authors Info](#Authors-info)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Description
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<p>This is a Movie Review App that allow the owner to get feedback from users/p>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+[Go Back to the top](#Movie-Review)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+[Go Back to the top](#Movie-Review)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Behaviour Driven Development
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+|Behaviour |Input   |Output
+|:---------:|:-------:|:-------:|
+|Enter your name | Alemba Alex |    |
+|Enter your Email Address |alembakiragu@gmail.com |    |
 
-### Code Splitting
+[Go Back to the top](#Movie-Review)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Requirements
 
-### Analyzing the Bundle Size
+*Access to a computer or any other garget
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+*Access to the internet
 
-### Making a Progressive Web App
+### Installation Process
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+****
 
-### Advanced Configuration
+*Clone the repo: https://github.com/alemba-21/movie-review.git
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+*Unzip the downloaded files in a folder of choice.
 
-### Deployment
+*Open the index files from the zipped file with any browser.
+****
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+[Go Back to the top](#Movie-Review)
 
-### `npm run build` fails to minify
+### Live Link
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+-Click this link to view the application: https://movie-reviewz.netlify.app/
+
+### Technology Used
+
+*REACT-JS -Which was used to give functionality to the project.
+
+*RUBY - Used for my BackEnd 
+
+[Go Back to the top](#Movie-Review)
+
+## Known Bugs
+
+*There were no bugs discovered.
+
+## License
+
+Copyright(c) [2022][Alemba Alex]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files , to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+## Authors Info
+
+LinkedIn -(linkedin.com/in/alex-kiragu-754690219)
+
+Email - (alembakiragu@gmail.com)
+
+[Go Back to the top](#Movie-Review)
