@@ -11,7 +11,7 @@ const LandingPage = () => {
     <div className='main'>
       <div className="overlay"></div>
         <div className='background'>
-          <video src={Clip3} autoPlay loop muted ></video>
+          <video src={Clip3} autoPlay loop muted></video>
         </div>
         <div className="content">
           <h2>Top 10 #1 in TV Shows Today</h2>

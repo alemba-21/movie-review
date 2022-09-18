@@ -185,5 +185,12 @@ h5{
   font-size: 25px;
 }
 
+.feedback{
+  border: 2px solid white;
+  padding: 200px;
+  width: 50%;
+  margin-left: 190px;
+  border-radius: 10px;
+}
 
 
