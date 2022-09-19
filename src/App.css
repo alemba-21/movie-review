@@ -187,10 +187,20 @@ h5{
 
 .feedback{
   border: 2px solid white;
-  padding: 200px;
+  padding: 20px;
   width: 50%;
-  margin-left: 190px;
+  margin-left: auto;
+  margin-right: auto;
   border-radius: 10px;
+  background-color: white;
+
+  /* grid-template-columns: repeat(3, 1fr) */
+}
+
+.reviews {
+  border: 2px solid black;
+  margin: 10px;
+  width: 160px;
 }
 
 
